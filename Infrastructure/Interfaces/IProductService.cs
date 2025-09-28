@@ -7,5 +7,5 @@ public interface IProductService
     void AddProductToList(string name, decimal price);
     void ShowProductsFromList();
     void SaveToFile(string filePath);
-    void LoadToFile(string filePath);
+    void LoadFromFile(string filePath);
 }
